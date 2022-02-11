@@ -1,10 +1,25 @@
 import React from "react";
+import About from './Center';
+
+// export function Home(){
+//     return (
+//         <div>
+//             <h1>home</h1>
+//          <About/>
+//         </div>
+         
+
+//     )
+// }
 
 
-function Home(){
+export function Footer(){
     return (
-         <h1>home</h1>   
+        <div>
+            <h1>Footer text</h1>
+         <About/>
+        </div>
+         
+
     )
 }
-
-export default Home;
