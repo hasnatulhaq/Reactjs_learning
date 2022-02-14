@@ -1,5 +1,17 @@
 import About from './Center';
 
+
+export function  Home(){
+    return (
+        <>
+         <h1>hello world</h1>
+        </>
+         
+
+    )
+}
+
+
 // export function Home(){
 //     return (
 //         <div>
@@ -10,17 +22,3 @@ import About from './Center';
 
 //     )
 // }
-
-
-export function Footer(){
-    return (
-        <>
-         <button>
-  Activate Lasers
-</button>
-         <About/>
-        </>
-         
-
-    )
-}
