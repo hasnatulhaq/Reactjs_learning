@@ -14,10 +14,12 @@ import About from './Center';
 
 export function Footer(){
     return (
-        <div>
-            <h1>Footer text</h1>
+        <>
+         <div>
+             <h1>hello world</h1>
+         </div>
          <About/>
-        </div>
+        </>
          
 
     )
