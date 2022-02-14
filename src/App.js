@@ -1,4 +1,3 @@
-import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {Footer}  from './Slice/Home';
 import Login from './Slice/Login';
