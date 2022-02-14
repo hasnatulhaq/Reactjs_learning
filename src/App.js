@@ -4,12 +4,14 @@ import Login from './Slice/Login';
 import Sigin from './Slice/Sigin';
 import About from './Slice/About';
 import Navbar from './Slice/navbar';
+import Example from './Slice/hooks';
 
 
 function App() {
   return (
     <>
     <Navbar/>
+    <Example/>
     <Router>
       <Routes>
           <Route path='/Home' element={<Home/>}></Route>
